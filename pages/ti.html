@@ -4,44 +4,114 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono&family=Inter:wght@400;600;700&family=Playfair+Display+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Finlandica&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Finlandica&display=swap"
+      rel="stylesheet"
+    />
     <title>Agente Soluções</title>
   </head>
   <body>
     <header>
       <nav>
-        <div>icon</div>
-        <div>
+        <div class="logo">
+          <a class="icon" href="/index.html">
+            <div class="logo">
+              <img class="logo-img" src="../assets/logo so-1.png" alt="" />
+            </div>
+
+            <div class="logo-nome">
+              <img class="nome-img" src="../assets/Logo nome-1.png" alt="" />
+            </div>
+          </a>
+        </div>
+        <div class="menu">
           <ul>
-            <li>Controle de acesso</li>
-            <li>CFTV IP</li>
-            <li>T.I</li>
-            <li>Automação</li>
+            <li><a href="../pages/acesso.html">Controle de acesso</a></li>
+            <li><a href="../pages/cftv.html">CFTV IP</a></li>
+            <li><a href="../pages/ti.html"> T.I</a></li>
+            <li><a href="../pages/automacao.html">Automação</a></li>
           </ul>
         </div>
       </nav>
     </header>
 
     <main>
-      <div>
-        <h1>Agente Soluções</h1>
-      </div>
-
-      <section>
-        <p>texto aqui</p>
-        <img src="" alt="" />
+      <section class="atuacao-expecifica">
+        <div class="texto-atuacao">
+          <h1>T.I</h1>
+          <br />
+          <img
+            class="imagem-principal-atuacao"
+            src="../assets/rack.PNG"
+            alt=""
+          />
+          <p>
+            Montagem e fornecimento de Racks, Switch, Patch Painel, Cabeamento
+            Estruturado certificado pela Anatel, Formatação de Equipamentos e
+            Instalação de Sistemas e Softwares de Gerenciamento, fornecimento e
+            configuração de servidores e serviços.
+          </p>
+          <div
+            style="
+              display: flex;
+              max-width: 200px;
+              max-height: 200px;
+              flex-direction: row;
+              justify-content: center;
+            "
+          >
+            <img src="../assets/computadores.PNG" alt="" />
+            <img src="../assets/patch-panel.PNG" alt="" />
+          </div>
+        </div>
       </section>
-
-      <div>
-        <h2>Áreas de atuação</h2>
-        <ul>
-          <li>Controle de acesso</li>
-          <li>CFTV IP</li>
-          <li>T.I</li>
-          <li>Automação</li>
-        </ul>
-      </div>
     </main>
 
-    <footer></footer>
+    <div class="redes-sociais">
+      <a href="https://wa.me/message/BNMEBBN5BBYSE1"
+        ><img class="whatsapp" src="../assets/whatsapp.png" alt=""
+      /></a>
+      <a
+        href="https://instagram.com/luciano_agente_solucoes?igshid=YmMyMTA2M2Y="
+        ><img class="instagram" src="../assets/instagram.png" alt=""
+      /></a>
+      <a href=""
+        ><img class="facebook" src="../assets/facebook.png" alt=""
+      /></a>
+    </div>
+
+    <section class="grid-section contato" id="contato">
+      <div class="titulo-contato">
+        <h1 class="titulo">Contato</h1>
+      </div>
+      <div class="mapa">
+        <img src="../assets/encruzilhada.PNG" />
+      </div>
+      <ul class="dados">
+        <li>Estrada de belem N-564, Recife, PE.</li>
+        <li>(81)98353-7161 / (81)98161-7161</li>
+        <li>Adm.agentesolucoes@icloud.com</li>
+        <li>CNPJ: 38.491.920/0001-22</li>
+      </ul>
+    </section>
+
+    <footer class="copy">
+      <div>Todos os direitos reservados.</div>
+    </footer>
   </body>
 </html>
